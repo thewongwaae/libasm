@@ -1,6 +1,8 @@
 section .text		; Declare this is a text (code) section
 global  ft_strlen	; Declare file entry point so other files can link to it
 
+; size_t strlen(const char *s)
+
 ft_strlen:
 	mov rax, -1				; Set value on rax to -1
 
